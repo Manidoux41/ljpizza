@@ -19,6 +19,7 @@ const HomeScreen = ({navigation}) => {
           title="Inscription"
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
+          onPress={() => navigation.navigate('Signup')}
         />
         <Button
         style={styles.buttonclick} 
